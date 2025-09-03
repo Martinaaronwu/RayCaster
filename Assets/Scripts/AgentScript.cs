@@ -41,7 +41,7 @@ public class AgentScript : MonoBehaviour
                 {
                     currentWaypointIndex = 0;
                 }
-               
+                currentDestination = waypoints[currentWaypointIndex].position;
             }
 
         }
